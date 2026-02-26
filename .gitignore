@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+
+# Events
+events/
+
+# Model weights
+*.pt
+
+# OS
+.DS_Store
