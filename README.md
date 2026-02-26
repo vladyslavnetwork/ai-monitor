@@ -4,29 +4,29 @@ Real-time edge AI video monitoring system with person detection, tracking and ev
 This project demonstrates a production-style computer vision pipeline running on GPU with configurable ROI monitoring and time-based event activation.
 
 Features
-    • Real-time object detection (YOLOv8)
-    • Multi-object tracking (ByteTrack)
-    • ROI-based monitoring zone
-    • Time-based trigger (> configurable seconds in zone)
-    • Automatic event snapshot saving
-    • YAML-based configuration
-    • Structured logging
-    • GPU acceleration (CUDA)
-    • Docker-ready architecture
+• Real-time object detection (YOLOv8)
+• Multi-object tracking (ByteTrack)
+• ROI-based monitoring zone
+• Time-based trigger (> configurable seconds in zone)
+• Automatic event snapshot saving
+• YAML-based configuration
+• Structured logging
+• GPU acceleration (CUDA)
+• Docker-ready architecture
 
 System Architecture
 Camera → YOLO Detection → ByteTrack Tracking → ROI Filter → Per-object Timer → Trigger (>N seconds) → Save Event Image
 
 Technologies
-    • Python 3.12
-    • PyTorch (CUDA)
-    • Ultralytics YOLOv8
-    • ByteTrack
-    • OpenCV
-    • YAML configuration
-    • NVIDIA RTX 3050
-    • Ubuntu 24
-    • Docker
+• Python 3.12
+• PyTorch (CUDA)
+• Ultralytics YOLOv8
+• ByteTrack
+• OpenCV
+• YAML configuration
+• NVIDIA RTX 3050
+• Ubuntu 24
+• Docker
 
 Project Structure
 ai-monitor/
@@ -69,19 +69,19 @@ Tested on NVIDIA RTX 3050 (4GB VRAM)
 Real-time multi-object tracking
 
 Use Cases
-    • Edge AI monitoring
-    • Intrusion detection systems
-    • Smart perimeter control
-    • Industrial safety monitoring
-    • Prototype defense-grade video analytics
+• Edge AI monitoring
+• Intrusion detection systems
+• Smart perimeter control
+• Industrial safety monitoring
+• Prototype defense-grade video analytics
 
 Future Improvements
-    • Headless mode
-    • REST API integration
-    • Telegram/HTTP alerts
-    • Database event logging
-    • Multi-camera support
-    • Docker Compose deployment
+• Headless mode
+• REST API integration
+• Telegram/HTTP alerts
+• Database event logging
+• Multi-camera support
+• Docker Compose deployment
 
 License
 MIT License
