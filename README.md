@@ -38,3 +38,41 @@ Camera → YOLO Detection → ByteTrack Tracking
 ---
 
 ## Project Structure
+ai-monitor/
+│
+├── main.py
+├── config/
+│ └── config.yaml
+├── events/
+├── requirements.txt
+├── Dockerfile
+└── README.md
+
+---
+
+## Configuration
+
+Edit:
+config/config.yaml
+
+Example:
+
+```yaml
+roi:
+  x1: 200
+  y1: 100
+  x2: 900
+  y2: 600
+
+trigger_time: 3
+camera_index: 0
+use_gpu: true
+
+## Run
+python main.py
+
+## Tested on:
+
+NVIDIA RTX 3050 (4GB)
+~50 FPS
+~1.2GB VRAM usage
